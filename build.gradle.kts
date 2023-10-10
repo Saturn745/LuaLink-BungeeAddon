@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "xyz.galaxyy.lualink.addons.example"
+group = "xyz.galaxyy.lualink.addons.bungee"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -10,7 +10,7 @@ repositories {
     maven("https://repo.purpurmc.org/snapshots")
     maven("https://jitpack.io")
     maven {
-        url = uri("https://maven.pkg.github.com/lualink/LuaLink") // TODO: Change to the LuaLink organization
+        url = uri("https://maven.pkg.github.com/lualink/LuaLink")
     }
 }
 
